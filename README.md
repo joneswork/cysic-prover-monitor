@@ -1,5 +1,7 @@
 # Cysic Prover Monitor
 
+![Feishu Notification Example](feishu-notification-example.png)
+
 This project provides two shell scripts to **run and monitor a Cysic Prover process** inside a `tmux` session, with **automatic restart** and **Feishu (Lark) webhook notifications**.
 
 ---
@@ -12,7 +14,7 @@ This project provides two shell scripts to **run and monitor a Cysic Prover proc
   - Outputs prover logs to `/var/log/prover.log`.
   - Automatically trims the log file to the last **100,000 lines** to prevent excessive disk usage.
 - **Task Tracking:**
-  - Detects when a prover task starts or finishes, sends notifications to Feishu.
+  - Detects when a prover task starts or finishes and sends notifications to Feishu.
 - **Error Handling:**
   - Watches for fatal errors in prover output (e.g., TLS errors, execution failures).
   - Sends a Feishu alert and terminates itself when critical errors occur.
@@ -50,11 +52,11 @@ This project provides two shell scripts to **run and monitor a Cysic Prover proc
 
 ## 🚀 Installation & Usage
 
-1. **Clone or copy scripts:**
-   ```bash
-   cd /root/cysic-prover
-   # Place start2.sh here
-   chmod +x start2.sh
-   # Place cysic-prover-monitor.sh anywhere (e.g., /root/)
-chmod +x cysic-prover-monitor.sh
+### 1. Place Scripts
+```bash
+cd /root/cysic-prover
+# Place start2.sh here
+chmod +x start2.sh
 
+# Place cysic-prover-monitor.sh anywhere (e.g., /root/)
+chmod +x /root/cysic-prover-monitor.sh
