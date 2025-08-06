@@ -60,3 +60,4 @@ chmod +x start2.sh
 
 # Place cysic-prover-monitor.sh anywhere (e.g., /root/)
 chmod +x /root/cysic-prover-monitor.sh
+/root/cysic-prover-monitor.sh
