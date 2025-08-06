@@ -55,3 +55,6 @@ This project provides two shell scripts to **run and monitor a Cysic Prover proc
    cd /root/cysic-prover
    # Place start2.sh here
    chmod +x start2.sh
+   # Place cysic-prover-monitor.sh anywhere (e.g., /root/)
+chmod +x cysic-prover-monitor.sh
+
