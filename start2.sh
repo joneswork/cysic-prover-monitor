@@ -1,10 +1,4 @@
 #!/bin/bash
-
-# ==== 代理设置 (Proxy Settings) ====
-export http_proxy="http://127.0.0.1:7890"
-export https_proxy="http://127.0.0.1:7890"
-export all_proxy="socks5://127.0.0.1:7891"
-
 # ==== 参数配置 (Configuration) ====
 WEBHOOK_URL="https://open.feishu.cn/open-apis/bot/v2/hook/11111111111111111111"
 MACHINE_ID="ID"
