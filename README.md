@@ -1,14 +1,15 @@
-工具tmux
+Tool: tmux
+start2.sh
+This is a sub-script that should be placed in the /root/cysic-prover directory.
 
-start2.sh为子脚本放置/root/cysic-prover目录下 
+Optional Variables:
 
-WEBHOOK_URL=“飞书webhook api” 
+WEBHOOK_URL: Feishu (Lark) Webhook API URL.
 
-MACHINE_ID="prover ID" 
+MACHINE_ID: Prover ID.
+These variables are optional; the script will still run without them.
 
-不设置也不影响脚本运行。 
+cysic-prover-monitor.sh
+This is the main script. After setting up the above configuration, run cysic-prover-monitor.sh to continuously monitor the process in a loop.
 
-cysic-prover-monitor.sh 为母脚本，完成以上步骤运行cysic-prover-monitor.sh循环监控。
-
-cysic ref：bc29a
-
+Cysic reference: bc29a
