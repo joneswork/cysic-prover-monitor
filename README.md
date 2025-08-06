@@ -12,4 +12,4 @@ These variables are optional; the script will still run without them.
 cysic-prover-monitor.sh
 This is the main script. After setting up the above configuration, run cysic-prover-monitor.sh to continuously monitor the process in a loop.
 
-Cysic reference: bc29a
+Cysic ReferralCode: bc29a
